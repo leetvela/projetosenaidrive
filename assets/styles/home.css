@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container-cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+
+}
+.logo{
+    font-family: "orbitron",sans-serif;
+    font-size: 1,8rem;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+.logo span{
+    font-family: "orbitron",sans-serif;
+    color: #2b858b;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.navegacao ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.navegacao ul li{
+    margin-left: 25px;
+
+}
+.navegacao ul li a {
+    color: #ffffff;
+    transition: color 0,3s ease;
+    font-size: 1,2em;
+    
+}
+
+.navegacao ul li a:hover{
+    color: #2b858b;
+    
+}
+.botao-contorno{
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: 2px solid #ffc857;
+    font-size: 1em;
+    font-weight: bold;
+    background: none;
+    transition: 0,3s ease;
+    color:#ffffff
+
+}
+
+.botao-contorno:hover{
+    background-color: #ffc857;
+    cursor: pointer;
+    color: #0a0a0a;
+}
+
+.cabecalho{
+    background-image: url("../imgs/Banner\ Home.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #ffffff
+
+}
+.secao-banner{
+    text-align:center;
+    padding: 200px 0;
+
+}
+.conteudo-banner{
+    margin: 0 auto;
+}
+.secao-banner h1,h2{
+    font-size: 2,8rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.secao-banner h2{
+    margin-bottom: 80px;
+
+}
+.destaque-amarelo{
+    color: #ffc857;
+    font-weight: bold;
+
+}
+.botao-amarelo{
+    background-color: #ffc857;
+    color: #0a2239;
+    padding: 1% 5%;
+    border-radius: 10px;
+    font-size: 1,5rem;
+    font-weight: 700;
+
+}
