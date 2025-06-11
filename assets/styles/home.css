@@ -115,3 +115,87 @@ a{
     font-weight: 700;
 
 }
+/*seção vantagem */
+
+.secao-vantagens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.item-vantagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    max-width: 20%;
+
+}
+
+.icone-vantagem{
+    width: 20%;
+}
+
+.iten-vantagem h3{
+    font-size: 1,4rem;
+}
+
+.item-vantagem p {
+max-width: 85%;
+}
+/*seção como fucniona*/
+
+.secao-como-funciona{
+    background-color: #ffc857;
+    height: 50vh;
+    padding: 30px 160px;
+
+}
+
+.secao-como-funciona h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e6b44e;
+    text-transform: uppercase;
+
+}
+.grupo-passos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+
+}
+.passo{
+    max-width: 185px;
+    position: relative;
+
+}
+.numero-passo{
+    font-size: 10rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -145px;
+    left: -20px;
+    z-index: 0;
+}
+
+.texto-passO{
+    margin-left: 20px;
+    position: relative;
+    z-index: 1;
+
+}
+.texto-passo h3{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+
+}
+
+.texto-passo p{
+    font-size: 1em;
+    
+}
